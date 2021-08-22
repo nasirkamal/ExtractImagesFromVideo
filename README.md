@@ -2,8 +2,8 @@
 [Install Python](https://www.python.org/downloads/)
 ### 2) Install Dependencies:
 `pip3 install --upgrade pip`
-`pip3 install -r requirements.txt`
 
+`pip3 install -r requirements.txt`
 
 ### 3) Run Script:
 
