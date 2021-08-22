@@ -1,17 +1,18 @@
-1) Install Python3:
+### 1) Install Python3:
+[Install Python](https://www.python.org/downloads/)
+### 2) Install Dependencies:
 
-2) Install Dependencies:
-
-	pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 
-3) Run Script:
+### 3) Run Script:
 
-	./main.py -v video.mp4 -n 200
+`./main.py -v video.mp4 -n 200`
 
-For Help:
+### 4) For Help:
 
-./main.py -h
+`./main.py -h`
+```
 usage: main.py [-h] -v VIDEO_FILE [-d DEST_DIR] [-e EXT] [-n NUM_IMG]
 
 Process video extract frames.
@@ -25,3 +26,4 @@ optional arguments:
   -e EXT, --ext EXT     Image extention to store in format.
   -n NUM_IMG, --num_img NUM_IMG
                         Number of images to extract.
+```
