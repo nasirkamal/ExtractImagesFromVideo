@@ -1,7 +1,7 @@
 ### 1) Install Python3:
 [Install Python](https://www.python.org/downloads/)
 ### 2) Install Dependencies:
-
+`pip3 install --upgrade pip`
 `pip3 install -r requirements.txt`
 
 
