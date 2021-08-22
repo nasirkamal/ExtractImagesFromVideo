@@ -22,8 +22,8 @@ optional arguments:
   -v VIDEO_FILE, --video_file VIDEO_FILE
                         Video to extract frames from.
   -d DEST_DIR, --dest_dir DEST_DIR
-                        Destination directory to store images.
-  -e EXT, --ext EXT     Image extention to store in format.
+                        Destination directory to store images. Default: 'Imgs'
+  -e EXT, --ext EXT     Image extention to store in format. Default: 'png'
   -n NUM_IMG, --num_img NUM_IMG
-                        Number of images to extract.
+                        Number of images to extract. Default: '100'
 ```

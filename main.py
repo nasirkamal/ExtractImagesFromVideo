@@ -7,9 +7,9 @@ import os
 
 parser = argparse.ArgumentParser(description='Process video extract frames.')
 parser.add_argument('-v', '--video_file', help='Video to extract frames from.', required=True)
-parser.add_argument('-d', '--dest_dir', help='Destination directory to store images.', default='Imgs')
-parser.add_argument('-e', '--ext', help='Image extention to store in format.', default='png')
-parser.add_argument('-n', '--num_img', help='Number of images to extract.', default='100')
+parser.add_argument('-d', '--dest_dir', help='Destination directory to store images. Default: \'Imgs\'', default='Imgs')
+parser.add_argument('-e', '--ext', help='Image extention to store in format. Default: \'png\'', default='png')
+parser.add_argument('-n', '--num_img', help='Number of images to extract. Default: \'100\'', default='100')
 args = parser.parse_args()
 
 video = cv2.VideoCapture(args.video_file)
